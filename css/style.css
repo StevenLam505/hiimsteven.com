@@ -95,3 +95,25 @@ canvas {
 	position: absolute;
 	transform: translateX(-50%);
 }
+
+@media screen and (max-width:750px) {
+	#main, #intro{
+		height: 100%;
+		text-align: center;
+		width: 90%;
+		padding-left: 5%;
+	}
+	
+	h3.aboutMe{
+		width: 90%;
+		text-align: justify;
+	}
+
+	html, body {
+		height: 100%;
+		overflow-x: hidden;
+	}
+	body {
+		position: relative
+	}
+}
